@@ -4,23 +4,30 @@ body{
 .myMain{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+   
    
 
 }
 
 
 .card{
-    gap: 20px;
 
     img{
         height: 100px;
         width: 260px;
         padding-left: 50px;
+        
+      
        
        
     }
 
     p {
-        padding-left: 80px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+       
     }
 }
